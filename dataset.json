@@ -1,0 +1,118 @@
+[
+    {
+        "input": "{}",
+        "output": "valid"
+    },
+    {
+        "input": "()",
+        "output": "valid"
+    },
+    {
+        "input": "[]",
+        "output": "valid"
+    },
+    {
+        "input": "{{}}",
+        "output": "valid"
+    },
+    {
+        "input": "[{}]",
+        "output": "valid"
+    },
+    {
+        "input": "({[]})",
+        "output": "valid"
+    },
+    {
+        "input": "[({})]",
+        "output": "valid"
+    },
+    {
+        "input": "([])",
+        "output": "valid"
+    },
+    {
+        "input": "[{()()}]",
+        "output": "valid"
+    },
+    {
+        "input": "(([]))",
+        "output": "valid"
+    },
+    {
+        "input": "[[[[[]]]]]",
+        "output": "valid"
+    },
+    {
+        "input": "{{{}}}",
+        "output": "valid"
+    },
+    {
+        "input": "(([[(({{}}))]]))",
+        "output": "valid"
+    },
+    {
+        "input": "[[(([]))]]",
+        "output": "valid"
+    },
+    {
+        "input": "((([][])))",
+        "output": "valid"
+    },
+    {
+        "input": "{}}",
+        "output": "invalid"
+    },
+    {
+        "input": "([)",
+        "output": "invalid"
+    },
+    {
+        "input": "[{]",
+        "output": "invalid"
+    },
+    {
+        "input": "{{}",
+        "output": "invalid"
+    },
+    {
+        "input": "([{})",
+        "output": "invalid"
+    },
+    {
+        "input": "[(})]",
+        "output": "invalid"
+    },
+    {
+        "input": "([{)",
+        "output": "invalid"
+    },
+    {
+        "input": "[{()}()}]",
+        "output": "invalid"
+    },
+    {
+        "input": "(([])",
+        "output": "invalid"
+    },
+    {
+        "input": "[[[[[)]]]]]",
+        "output": "invalid"
+    },
+    {
+        "input": "{{{}}",
+        "output": "invalid"
+    },
+    {
+        "input": "(([[({{}}))]]))",
+        "output": "invalid"
+    },
+    {
+        "input": "[[(([))]]",
+        "output": "invalid"
+    },
+    {
+        "input": "((([])[])))",
+        "output": "invalid"
+    }
+]

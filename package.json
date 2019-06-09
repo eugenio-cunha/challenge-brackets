@@ -1,0 +1,26 @@
+{
+  "name": "challenge-brackets",
+  "version": "1.0.0",
+  "description": "Challenge brackets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ugenio/challenge-brackets.git"
+  },
+  "keywords": [
+    "challenge",
+    "brackets"
+  ],
+  "author": "Eugenio Cunha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ugenio/challenge-brackets/issues"
+  },
+  "homepage": "https://github.com/ugenio/challenge-brackets#readme",
+  "dependencies": {
+    "brain.js": "^1.6.1"
+  }
+}
